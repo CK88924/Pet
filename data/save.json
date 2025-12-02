@@ -1,0 +1,33 @@
+{
+  "version": "2.0",
+  "save_time": "2025-12-02T21:45:17.699276",
+  "pet_stats": {
+    "hunger": 98.000348842144,
+    "happiness": 99.82018021583556,
+    "health": 99.64014878273011,
+    "energy": 96.1930959606172,
+    "level": 1,
+    "experience": 38,
+    "exp_to_next_level": 100,
+    "birth_time": 1764680256.6646664,
+    "feed_count": 1,
+    "play_count": 1,
+    "pet_count": 1,
+    "clean_count": 1
+  },
+  "inventory": {
+    "inventory": {
+      "apple": 7,
+      "milk": 3,
+      "ball": 6,
+      "brush": 1
+    }
+  },
+  "event_system": {
+    "unlocked_achievements": [
+      "first_play",
+      "first_feed"
+    ],
+    "last_event_time": 1764683088.1592927
+  }
+}

@@ -1,0 +1,46 @@
+# ---------------------------------------------------
+# Project: Desktop Pet (Python / PyQt5)
+# ---------------------------------------------------
+# Python compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment directories (if any)
+env/
+venv/
+.venv/
+ENV/
+
+# Build / distribution artefacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# PyQt UI files (if you generate .ui files)
+*.ui
+
+# OS‑specific files
+.DS_Store
+Thumbs.db
+
+# IDE / editor folders
+.vscode/
+.idea/
+
+# Generated assets – keep the folder structure but ignore the actual images
+assets/default_cat/**
+assets/your_pet/**
+# Keep the folder structure (optional – add a .gitkeep file in each folder you want tracked)
+# Example: assets/default_cat/.gitkeep
+
+# Gemini artefacts (internal tooling)
+*.gemini/
+
+# Logs / temporary files
+*.log
+*.tmp
+
+# End of .gitignore

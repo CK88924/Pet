@@ -1,0 +1,65 @@
+{
+    "ball": {
+        "name": "球",
+        "name_en": "Ball",
+        "type": "toy",
+        "happiness": 20,
+        "energy": -15,
+        "rarity": "common",
+        "description": "簡單的小球，可以玩很久"
+    },
+    "yarn": {
+        "name": "毛線球",
+        "name_en": "Yarn",
+        "type": "toy",
+        "happiness": 25,
+        "energy": -20,
+        "rarity": "common",
+        "description": "貓咪最愛的毛線球"
+    },
+    "mouse_toy": {
+        "name": "玩具老鼠",
+        "name_en": "Toy Mouse",
+        "type": "toy",
+        "happiness": 30,
+        "energy": -25,
+        "rarity": "uncommon",
+        "description": "像真的老鼠一樣，非常有趣"
+    },
+    "feather": {
+        "name": "羽毛棒",
+        "name_en": "Feather Wand",
+        "type": "toy",
+        "happiness": 35,
+        "energy": -30,
+        "rarity": "uncommon",
+        "description": "飄動的羽毛，激發狩獵本能"
+    },
+    "medicine": {
+        "name": "藥品",
+        "name_en": "Medicine",
+        "type": "item",
+        "health": 50,
+        "happiness": -10,
+        "rarity": "rare",
+        "description": "治療疾病，但寵物不太喜歡"
+    },
+    "brush": {
+        "name": "梳子",
+        "name_en": "Brush",
+        "type": "item",
+        "health": 10,
+        "happiness": 15,
+        "rarity": "common",
+        "description": "幫寵物梳毛，保持清潔"
+    },
+    "vitamin": {
+        "name": "維他命",
+        "name_en": "Vitamin",
+        "type": "item",
+        "health": 30,
+        "energy": 20,
+        "rarity": "uncommon",
+        "description": "補充營養，增強體力"
+    }
+}

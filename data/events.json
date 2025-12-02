@@ -1,0 +1,89 @@
+{
+    "found_food": {
+        "name": "發現食物",
+        "name_en": "Found Food",
+        "type": "good",
+        "probability": 0.15,
+        "description": "寵物在散步時發現了食物！",
+        "effect": {
+            "add_item": "apple",
+            "quantity": 1
+        }
+    },
+    "found_toy": {
+        "name": "發現玩具",
+        "name_en": "Found Toy",
+        "type": "good",
+        "probability": 0.1,
+        "description": "寵物找到了一個有趣的玩具！",
+        "effect": {
+            "add_item": "ball",
+            "quantity": 1
+        }
+    },
+    "sunny_day": {
+        "name": "陽光普照",
+        "name_en": "Sunny Day",
+        "type": "good",
+        "probability": 0.2,
+        "description": "今天天氣很好，寵物心情大好！",
+        "effect": {
+            "happiness": 20,
+            "energy": 10
+        }
+    },
+    "got_sick": {
+        "name": "生病了",
+        "name_en": "Got Sick",
+        "type": "bad",
+        "probability": 0.05,
+        "condition": {
+            "health": {
+                "<": 30
+            }
+        },
+        "description": "寵物生病了，需要照顧...",
+        "effect": {
+            "health": -15,
+            "happiness": -10
+        }
+    },
+    "feeling_lonely": {
+        "name": "感到孤單",
+        "name_en": "Feeling Lonely",
+        "type": "bad",
+        "probability": 0.1,
+        "condition": {
+            "happiness": {
+                "<": 30
+            }
+        },
+        "description": "寵物感到有點孤單...",
+        "effect": {
+            "happiness": -10
+        }
+    },
+    "treasure_hunt": {
+        "name": "尋寶成功",
+        "name_en": "Treasure Hunt",
+        "type": "rare",
+        "probability": 0.03,
+        "description": "寵物發現了一個寶箱！",
+        "effect": {
+            "add_item": "cake",
+            "quantity": 1,
+            "happiness": 30
+        }
+    },
+    "visitor": {
+        "name": "訪客來了",
+        "name_en": "Visitor",
+        "type": "good",
+        "probability": 0.12,
+        "description": "有朋友來拜訪寵物！",
+        "effect": {
+            "happiness": 25,
+            "energy": -10
+        }
+    }
+}

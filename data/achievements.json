@@ -1,0 +1,83 @@
+{
+    "first_feed": {
+        "name": "第一次餵食",
+        "name_en": "First Feeding",
+        "description": "第一次餵食寵物",
+        "reward": {
+            "item": "apple",
+            "quantity": 3
+        }
+    },
+    "first_play": {
+        "name": "第一次玩耍",
+        "name_en": "First Play",
+        "description": "第一次和寵物玩耍",
+        "reward": {
+            "item": "ball",
+            "quantity": 1
+        }
+    },
+    "feed_10": {
+        "name": "美食家",
+        "name_en": "Foodie",
+        "description": "餵食寵物 10 次",
+        "requirement": {
+            "feed_count": 10
+        },
+        "reward": {
+            "item": "fish",
+            "quantity": 5
+        }
+    },
+    "play_10": {
+        "name": "遊戲達人",
+        "name_en": "Play Master",
+        "description": "和寵物玩耍 10 次",
+        "requirement": {
+            "play_count": 10
+        },
+        "reward": {
+            "item": "feather",
+            "quantity": 1
+        }
+    },
+    "level_5": {
+        "name": "成長",
+        "name_en": "Growth",
+        "description": "寵物達到 5 級",
+        "requirement": {
+            "level": 5
+        },
+        "reward": {
+            "item": "cake",
+            "quantity": 1
+        }
+    },
+    "perfect_stats": {
+        "name": "完美照顧",
+        "name_en": "Perfect Care",
+        "description": "所有狀態同時達到 100",
+        "requirement": {
+            "hunger": 100,
+            "happiness": 100,
+            "health": 100,
+            "energy": 100
+        },
+        "reward": {
+            "item": "vitamin",
+            "quantity": 3
+        }
+    },
+    "age_7": {
+        "name": "一週年",
+        "name_en": "One Week Anniversary",
+        "description": "寵物年齡達到 7 天",
+        "requirement": {
+            "age_days": 7
+        },
+        "reward": {
+            "item": "cake",
+            "quantity": 1
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "apple": {
+        "name": "蘋果",
+        "name_en": "Apple",
+        "hunger": 30,
+        "health": 5,
+        "happiness": 0,
+        "rarity": "common",
+        "description": "新鮮多汁的蘋果，健康又營養"
+    },
+    "fish": {
+        "name": "魚",
+        "name_en": "Fish",
+        "hunger": 50,
+        "health": 0,
+        "happiness": 10,
+        "rarity": "uncommon",
+        "description": "貓咪最愛的小魚，讓寵物心情愉悅"
+    },
+    "meat": {
+        "name": "肉",
+        "name_en": "Meat",
+        "hunger": 60,
+        "health": 10,
+        "happiness": 5,
+        "rarity": "uncommon",
+        "description": "優質肉類，營養豐富"
+    },
+    "milk": {
+        "name": "牛奶",
+        "name_en": "Milk",
+        "hunger": 20,
+        "health": 15,
+        "happiness": 5,
+        "rarity": "common",
+        "description": "溫暖的牛奶，補充營養和健康"
+    },
+    "cake": {
+        "name": "蛋糕",
+        "name_en": "Cake",
+        "hunger": 40,
+        "health": -5,
+        "happiness": 30,
+        "rarity": "rare",
+        "description": "甜美的蛋糕，雖然不太健康但讓寵物非常開心"
+    }
+}
